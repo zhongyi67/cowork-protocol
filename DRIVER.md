@@ -55,7 +55,7 @@
 ### Step 5 · 用结构化格式汇报现状
 
 ```
-✅ 协议已读：驱动计划.md（+ 当前项目协议文件，如有）
+✅ 协议已读：DRIVER.md（+ 当前项目协议文件，如有）
 📍 当前模式：<A 全新 / B 接管已有协议 / C 接管已有代码 / D 询问>
 📊 项目状态：
    - 本地 HEAD：<commit + 主题 / 或"尚未建仓库">
@@ -158,7 +158,7 @@ M2（上线版）：
 GitHub 仓库：<已建 URL / 或"没建，用 gh CLI 建私有仓库 <user>/<项目名>">
 服务器：<IP / 或"暂不上线，跳过服务器步骤">
 
-请按 https://raw.githubusercontent.com/<your-user>/cowork-protocol/main/驱动计划.md §5 Codex 激活协议读取角色，然后执行 §6 P-init 任务。
+请按 https://raw.githubusercontent.com/<your-user>/cowork-protocol/main/DRIVER.md §5 Codex 激活协议读取角色，然后执行 §6 P-init 任务。
 完成后 push [review-ready] P-init 等 Claude PASS。
 
 附 Phase 1 产出（你写进 PRODUCT_ROADMAP.md）：
@@ -470,11 +470,11 @@ git clone <repo>
 cd <项目>
 ls docs/   # 确认 4-5 件套在
 ```
-新 Claude 对话粘"读 https://raw.githubusercontent.com/<your-user>/cowork-protocol/main/驱动计划.md。项目在 ~/Desktop/<项目>，刚换机器，进入接管已有协议模式"。
+新 Claude 对话粘"读 https://raw.githubusercontent.com/<your-user>/cowork-protocol/main/DRIVER.md。项目在 ~/Desktop/<项目>，刚换机器，进入接管已有协议模式"。
 
 ### 场景 B · 换 Claude 会话（最常用）
 ```
-读 https://raw.githubusercontent.com/<your-user>/cowork-protocol/main/驱动计划.md
+读 https://raw.githubusercontent.com/<your-user>/cowork-protocol/main/DRIVER.md
 项目在 ~/Desktop/<项目名>。
 按 §1 Step 4 模式 B 接管已有协议项目进入状态。
 cat 项目 docs/ 下协议 4-5 件套 + git log -15 + handoff 最后 3 节，按 §1 Step 5 模板汇报。
@@ -482,7 +482,7 @@ cat 项目 docs/ 下协议 4-5 件套 + git log -15 + handoff 最后 3 节，按
 
 ### 场景 C · 换 Codex 会话
 ```
-读 https://raw.githubusercontent.com/<your-user>/cowork-protocol/main/驱动计划.md
+读 https://raw.githubusercontent.com/<your-user>/cowork-protocol/main/DRIVER.md
 我是接手的 Codex，项目在 ~/Desktop/<项目>。
 按 §5 上下文判断"正常 P 项"模式进入：
 1. cat docs/OPERATING_PROTOCOL.md / PROJECT_CONFIG.md / GPT_HANDOFF.md
